@@ -1,0 +1,43 @@
+{
+    "id": "wordpress-development",
+    "version": "1.0.0",
+    "name": "WordPress Development",
+    "description": "Zentrale VS-Code-Customizations für WordPress-Projekte",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "xdebug.php-debug",
+                "bmewburn.vscode-intelephense-client",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "yutent.sass",
+                "redhat.vscode-xml",
+                "openai.chatgpt",
+                "philipdaoud.sftp-neo"
+            ],
+            "settings": {
+                "remote.extensionKind": {
+                    "GitHub.copilot": "ui",
+                    "GitHub.copilot-chat": "ui",
+                    "dbaeumer.vscode-eslint": "workspace",
+                    "yutent.sass": "workspace",
+                    "redhat.vscode-xml": "workspace",
+                    "openai.chatgpt": "workspace",
+                    "philipdaoud.sftp-neo": "workspace"
+                },
+                "editor.codeActionsOnSave": {
+                    "source.fixAll.eslint": "always"
+                },
+                "eslint.useFlatConfig": true,
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "sass.compile": {
+                    "savePath": null,
+                    "style": "compressed",
+                    "sourceMap": false
+                }
+            }
+        }
+    }
+}
