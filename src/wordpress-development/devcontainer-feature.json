@@ -11,7 +11,7 @@
                 "bmewburn.vscode-intelephense-client",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
-                "yutent.sass",
+                "glenn2223.live-sass",
                 "redhat.vscode-xml",
                 "openai.chatgpt",
                 "philipdaoud.sftp-neo"
@@ -21,7 +21,7 @@
                     "GitHub.copilot": "ui",
                     "GitHub.copilot-chat": "ui",
                     "dbaeumer.vscode-eslint": "workspace",
-                    "yutent.sass": "workspace",
+                    "glenn2223.live-sass": "workspace",
                     "redhat.vscode-xml": "workspace",
                     "openai.chatgpt": "workspace",
                     "philipdaoud.sftp-neo": "workspace"
@@ -32,11 +32,14 @@
                 "eslint.useFlatConfig": true,
                 "editor.formatOnSave": true,
                 "editor.defaultFormatter": "esbenp.prettier-vscode",
-                "sass.compile": {
-                    "savePath": null,
-                    "style": "compressed",
-                    "sourceMap": false
-                }
+                "liveSassCompile.settings.formats": [
+                    {
+                        "format": "compressed",
+                        "extensionName": ".css",
+                        "savePath": null
+                    }
+                ],
+                "liveSassCompile.settings.generateMap": false
             }
         }
     }
