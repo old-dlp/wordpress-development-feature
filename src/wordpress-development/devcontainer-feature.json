@@ -1,6 +1,6 @@
 {
     "id": "wordpress-development",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "WordPress Development",
     "description": "Zentrale VS-Code-Customizations für WordPress-Projekte",
 
@@ -14,7 +14,8 @@
                 "glenn2223.live-sass",
                 "redhat.vscode-xml",
                 "openai.chatgpt",
-                "philipdaoud.sftp-neo"
+                "philipdaoud.sftp-neo".
+                "anthropic.claude-code"
             ],
             "settings": {
                 "remote.extensionKind": {
@@ -24,7 +25,8 @@
                     "glenn2223.live-sass": "workspace",
                     "redhat.vscode-xml": "workspace",
                     "openai.chatgpt": "workspace",
-                    "philipdaoud.sftp-neo": "workspace"
+                    "philipdaoud.sftp-neo": "workspace",
+                    "anthropic.claude-code": "workspace"
                 },
                 "editor.codeActionsOnSave": {
                     "source.fixAll.eslint": "always"
